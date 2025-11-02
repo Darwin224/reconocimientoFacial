@@ -1,0 +1,32 @@
+{
+  "class_names": [
+    "Darwin",
+    "No_Darwin"
+  ],
+  "target_size": [
+    600,
+    800
+  ],
+  "architecture": [
+    [
+      480000,
+      "input"
+    ],
+    [
+      64,
+      "relu"
+    ],
+    [
+      32,
+      "relu"
+    ],
+    [
+      2,
+      "softmax"
+    ]
+  ],
+  "training_accuracy": 1.0,
+  "test_accuracy": 1.0,
+  "input_size": 480000,
+  "output_size": 2
+}
